@@ -25,7 +25,7 @@ Each proxy listener binds to its own port and routes all traffic through a speci
 ## Quick Install (RHEL 9 / Ubuntu 22.04+)
 
 ```bash
-git clone https://github.com/your-org/go-proxy-ipv6-pool.git
+git clone https://github.com/Ealireza/SuperProxy.git
 cd go-proxy-ipv6-pool
 chmod +x install.sh
 sudo ./install.sh
