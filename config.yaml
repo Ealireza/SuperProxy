@@ -1,0 +1,26 @@
+# Example configuration for ipv6-proxy
+# Each entry creates a SOCKS5 listener on the specified port,
+# using the specified IPv6 address for all outbound connections.
+
+# Network interface where IPv6 addresses will be assigned
+# The proxy will automatically add missing IPv6/128 addresses at startup
+interface: eth0
+
+proxies:
+  - ipv6: "2001:db8::1"
+    port: 10001
+
+  - ipv6: "2001:db8::2"
+    port: 10002
+
+  - ipv6: "2001:db8::3"
+    port: 10003
+
+  - ipv6: "2001:db8::4"
+    port: 10004
+
+  - ipv6: "2001:db8::5"
+    port: 10005
+
+  - ipv6: "2001:db8::6"
+    port: 10006
